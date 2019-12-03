@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-    background-image: url("https://paiza-webapp.s3.amazonaws.com/files/learning/portfolio/bg.png");
+    background-image: url("../img/honeycomb.png");
     color: white;
 }
 
@@ -29,18 +29,6 @@ body {
 
 .icon-size {
     font-size: 200%;
-}
-
-.color-talk {
-    color: lightseagreen;
-}
-
-.color-wrench {
-    color: steelblue;
-}
-
-.color-heart {
-    color: plum;
 }
 
 .bp-blue {
