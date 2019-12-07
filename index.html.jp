@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/x-icon" href="./favicons/favicon.ico">
+	<link rel="apple-touch-icon" sizes="180x180" href="./favicons/apple-touch-icon-180x180.png">
+	<title>Blaupause</title>
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.4/css/all.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/body.css" type="text/css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+	<script src="./js/blaupause.js" type="text/javascript"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-dark fixed-top">
+		<a href="#"><img src="./img/LOGO_GochiHand.png" height="50" alt=""></a>
+		<button class="navbar-toggler" type="button"
+			data-toggle="collapse"
+			data-target="#navmenu1"
+			aria-controls="navmenu1"
+			aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navmenu1">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link" href="#works">Works</a>
+				<a class="nav-item nav-link" href="#skills">Skills</a>
+				<a class="nav-item nav-link" href="#contact">Contact</a>
+			</div>
+		</div>
+		<!--/.nav-collapse -->
+	</nav>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4">
+					<h1>Under Construction!</h1>
+				</div>
+				<div class="col-sm-8">
+					<h1>C. Ogita</h1>
+					<p class="lead">Application Developer<br>Data Engineer</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="starter-template">
+			<h2 class="text-center" id="concept">Services</h2>
+			<div class="row pt-5 text-center">
+				<div class="col-sm-4">
+					<h2 class="bp-green"><img src="./img/icon_map.png" height="100" alt=""><br>WebGIS</h2>
+					<p>さまざまな位置情報データを<br>使いやすいWebマップとして<br>表現します。</p>
+				</div>
+				<div class="col-sm-4">
+					<h2 class="bp-blue"><img src="./img/icon_graph.png" height="100" alt=""><br>DataVisualization</h2>
+					<p>データが語る事実をそのまま、<br>効果的な方法でグラフ化します。</p>
+				</div>
+				<div class="col-sm-4">
+					<h2 class="bp-orange"><img src="./img/icon_pc.png" height="100" alt=""><br>Application</h2>
+					<p>個性的なアプリケーションで、<br>毎日をちょっと楽しくする<br>お手伝いをします。</p>
+				</div>
+			</div>
+			<hr>
+			<h2 id="works">Works</h2>
+			<div class="row p-3">
+				<div class="col-sm-6">
+					<img src="./img/noimage_large_t.png" class="img-fluid">
+					<h3>夜の灯台点滅マップ</h3>
+					<p>ずっと眺めていたくなる灯台の地図。昼夜を選べる機能がそのうちできる予定です。たぶん。</p>
+					<span class="badge badge-Python">Python</span>
+					<span class="badge badge-Django">Django</span>
+					<span class="badge badge-PHP">PHP</span>
+					<span class="badge badge-danger">HTML</span>
+					<span class="badge badge-JavaScript">JavaScript</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-dark">GIS</span>
+				</div>
+				<div class="col-sm-6">
+					<img src="./img/noimage_large_t.png" class="img-fluid">
+					<h3>沢筋ごとの累積雨量マップ</h3>
+					<p>恐ろしい鉄砲水が起こらないかどうか予測するのにちょっと役立つかもしれません。</p>
+					<span class="badge badge-Python">Python</span>
+					<span class="badge badge-Django">Django</span>
+					<span class="badge badge-PHP">PHP</span>
+					<span class="badge badge-danger">HTML</span>
+					<span class="badge badge-JavaScript">JavaScript</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-dark">GIS</span>
+				</div>
+			</div>
+			<div class="row p-3">
+				<div class="col-sm-6">
+					<img src="./img/noimage_large_t.png" class="img-fluid">
+					<h3>ダメな人のための園芸アプリ</h3>
+					<p>植物が大好きなのにいつも鉢植えを枯らしてしまうあなたのためのアプリ。もう悲しまないで！</p>
+					<span class="badge badge-Python">Python</span>
+					<span class="badge badge-Django">Django</span>
+					<span class="badge badge-PHP">PHP</span>
+					<span class="badge badge-danger">HTML</span>
+					<span class="badge badge-JavaScript">JavaScript</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-dark">GIS</span>
+				</div>
+				<div class="col-sm-6">
+					<img src="./img/noimage_large_t.png" class="img-fluid">
+					<h3>おでかけルーレット</h3>
+					<p>行きたいところがたくさんありすぎておでかけ先がなかなか決まらない人向け。</p>
+					<span class="badge badge-Python">Python</span>
+					<span class="badge badge-Django">Django</span>
+					<span class="badge badge-PHP">PHP</span>
+					<span class="badge badge-danger">HTML</span>
+					<span class="badge badge-JavaScript">JavaScript</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-dark">GIS</span>
+				</div>
+			</div>
+			<div class="row p-3">
+				<div class="col-sm-6">
+					<img src="./img/noimage_large_t.png" class="img-fluid">
+					<h3>フィールドノートアプリ</h3>
+					<p>フィールドワークのテーマに合わせて記録項目を自由にカスタマイズできます。集まった情報は仲間と共有しましょう！</p>
+					<span class="badge badge-Python">Python</span>
+					<span class="badge badge-Django">Django</span>
+					<span class="badge badge-PHP">PHP</span>
+					<span class="badge badge-danger">HTML</span>
+					<span class="badge badge-JavaScript">JavaScript</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-dark">GIS</span>
+				</div>
+				<div class="col-sm-6">
+					<img src="./img/noimage_large_t.png" class="img-fluid">
+					<h3>ストックローテーションアプリ</h3>
+					<p>災害時のためにストックした食料や消耗品を上手に管理しましょう。</p>
+					<span class="badge badge-Python">Python</span>
+					<span class="badge badge-Django">Django</span>
+					<span class="badge badge-PHP">PHP</span>
+					<span class="badge badge-danger">HTML</span>
+					<span class="badge badge-JavaScript">JavaScript</span>
+					<span class="badge badge-info">SQL</span>
+					<span class="badge badge-dark">GIS</span>
+				</div>
+			</div>
+			<hr>
+			<h2 id="skills">Skills</h2>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>Programing Language</h3>
+					<ul>
+						<li>Python3</li>
+						<li>PHP</li>
+						<li>JavaScript</li>
+					</ul>
+					<h3>Database</h3>
+					<ul>
+						<li>PostgreSQL</li>
+						<li>MySQL</li>
+					</ul>
+				</div>
+			</div>
+			<hr>
+			<h2 id="contact">Contact</h2>
+			<div class="row">
+				<div class="col-sm-12">
+					<h3>eMail</h3>
+					<ul>
+						<li>c.ogita@blaupause.jp</li>
+					</ul>
+					<h3>Blog</h3>
+					<ul>
+						<li>Qiita</li>
+					</ul>
+					<h3>GitHub</h3>
+					<ul>
+						<li>scoria9</li>
+					</ul>
+				</div>
+			</div>
+			<div class="page_top"><a href="#"></a></div>
+		</div>
+	</div>
+	<!-- /.container -->
+
+	<footer class="footer">
+		プライバシーポリシー | 免責事項<br>
+		&copy; 2019 - 2020 Blaupause All rights reserved.
+	</footer>
+
+</body>
+</html>
